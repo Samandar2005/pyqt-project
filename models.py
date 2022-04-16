@@ -169,6 +169,7 @@ class District(BaseModel):
             self.__regionId = regionId
         else:
             self.__regionId = None
+            print('sajska')
             self.__isValid = False
 
     @property

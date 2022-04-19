@@ -1,4 +1,3 @@
-from operator import le
 import sys
 import time
 import traceback
@@ -236,7 +235,9 @@ class Window(QMainWindow):
 
         # Устанавливаем заголовки таблицы
         self.table.setHorizontalHeaderLabels(
-            ['Id', "Familiyasi", "Ismi", "Tug'ilgan yili", "Bahosi", "Kursi", "Viloyati", "tuman id", "Tumani"])
+            ['Id', "Familiyasi", "Ismi", "Tug'ilgan yili", "Bahosi", "Kursi", "Viloyati", "tuman id",
+
+             "Tumani"])
 
         self.table.hideColumn(0)
         self.table.hideColumn(7)
